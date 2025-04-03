@@ -1,27 +1,58 @@
-# BaseA18
+<h1 align="center">🚀 BaseA18 - Angular 18 Project Template</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
+<div align="center">
+  <img src="https://angular.io/assets/images/logos/angular/angular.svg" width="30%" alt="Angular Logo"/>
+</div>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## ✨ Features
 
-## Code scaffolding
+- ⚡ **Angular 18** - Latest version with standalone components
+- 🧪 **Testing Setup** - Jest for unit testing with pre-configured mocks
+- 🛠️ **Linting** - ESLint with Angular-specific rules
+- 💅 **Prettier** - Consistent code formatting
+- 🏗️ **SCSS Support** - Ready for styling with Sass
+- 📦 **Optimized Build** - Production-ready configuration
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Development Setup
 
-## Build
+```bash
+# Install dependencies
+npm install
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Start development server
+npm start
 
-## Running unit tests
+# Run tests
+npm test
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Watch tests
+npm run test:watch
 
-## Running end-to-end tests
+# Generate test coverage report
+npm run test:coverage
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## 🧪 Testing
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project uses Jest for testing with:
+
+- Pre-configured mocks for IntersectionObserver and ResizeObserver
+- Coverage reporting
+- Angular testing utilities
+
+## 🔧 Configuration Files
+
+- `angular.json` - Angular CLI configuration
+- `jest.config.ts` - Jest testing configuration
+- `eslint.config.mjs` - ESLint rules
+- `.prettierrc` - Prettier formatting rules
+
+## 📜 License
+
+MIT
+
+---
+
+Built with ❤️ using Angular 18
